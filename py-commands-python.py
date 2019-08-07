@@ -22,6 +22,9 @@ import win32com
 import win32gui
 import win32timezone
 import numpy
+import numpy.random.common
+import numpy.random.bounded_integers
+import numpy.random.entropy
 import pandas
 import requests
 import xlrd
