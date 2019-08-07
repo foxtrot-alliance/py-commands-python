@@ -2,12 +2,19 @@ import re
 import os
 import sys
 import csv
+import xml
 import time
 import math
 import random
 import datetime
 import traceback
 import ctypes
+import urllib
+import lxml
+import shutil
+import smtplib
+import json
+import email
 import pywinauto
 import keyboard
 import openpyxl
@@ -23,7 +30,7 @@ import requests
 import xlrd
 import xlwt
 import pythoncom
-from bs4 import BeautifulSoup
+import bs4
 
 
 def retrieve_project_parameters():
