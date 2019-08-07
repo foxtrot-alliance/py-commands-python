@@ -26,7 +26,6 @@ import pythoncom
 from bs4 import BeautifulSoup
 
 
-
 def retrieve_project_parameters():
     
     parameters = sys.argv
