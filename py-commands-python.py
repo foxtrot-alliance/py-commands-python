@@ -1,20 +1,30 @@
 import re
 import os
 import sys
+import csv
+import time
+import math
+import random
 import datetime
 import traceback
-import pyautogui
+import ctypes
 import pywinauto
 import keyboard
 import openpyxl
 import win32com
 import win32gui
 import win32timezone
+import numpy
+import numpy.random.common
+import numpy.random.bounded_integers
+import numpy.random.entropy
 import pandas
 import requests
 import xlrd
 import xlwt
 import pythoncom
+from bs4 import BeautifulSoup
+
 
 
 def retrieve_project_parameters():
